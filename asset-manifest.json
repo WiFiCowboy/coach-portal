@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/coach-portal/static/css/main.00b64bd2.chunk.css",
+    "main.js": "/coach-portal/static/js/main.988aedf1.chunk.js",
+    "main.js.map": "/coach-portal/static/js/main.988aedf1.chunk.js.map",
+    "runtime-main.js": "/coach-portal/static/js/runtime-main.767f87b2.js",
+    "runtime-main.js.map": "/coach-portal/static/js/runtime-main.767f87b2.js.map",
+    "static/js/2.6862b0f9.chunk.js": "/coach-portal/static/js/2.6862b0f9.chunk.js",
+    "static/js/2.6862b0f9.chunk.js.map": "/coach-portal/static/js/2.6862b0f9.chunk.js.map",
+    "index.html": "/coach-portal/index.html",
+    "precache-manifest.17180610eddedede9d050d6bf5b91db5.js": "/coach-portal/precache-manifest.17180610eddedede9d050d6bf5b91db5.js",
+    "service-worker.js": "/coach-portal/service-worker.js",
+    "static/css/main.00b64bd2.chunk.css.map": "/coach-portal/static/css/main.00b64bd2.chunk.css.map",
+    "static/js/2.6862b0f9.chunk.js.LICENSE.txt": "/coach-portal/static/js/2.6862b0f9.chunk.js.LICENSE.txt",
+    "static/media/globe.png": "/coach-portal/static/media/globe.8ccd13c3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.767f87b2.js",
+    "static/js/2.6862b0f9.chunk.js",
+    "static/css/main.00b64bd2.chunk.css",
+    "static/js/main.988aedf1.chunk.js"
+  ]
+}
