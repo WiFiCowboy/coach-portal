@@ -23,3 +23,62 @@ nav {
   width: 40px;
   height: auto;
 }
+
+.icon-bar {
+  padding-top: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid darkgray;
+}
+
+.fa {
+  text-align: center;
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 13px;
+  color: rgb(71, 79, 79);
+}
+
+.chart {
+  color: rgb(13, 100, 250);
+}
+
+.news {
+  color: rgb(114, 67, 67);
+}
+
+.tri {
+  color: red;
+}
+
+.task, .globe, .docs {
+  color: blue;
+}
+
+.users {
+  color: orangered;
+}
+
+.truck {
+  color: rgb(116, 101, 101);
+}
+
+/* .globe {
+  color: blue;
+} */
+
+.link {
+  color: rgb(116, 101, 101);
+}
+
+.table {
+  color: rgb(254, 182, 1);
+}
+
+.trophy {
+  color: rgb(2, 135, 55);
+}
