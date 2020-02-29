@@ -67,10 +67,6 @@ h4 {
   color: rgb(116, 101, 101);
 }
 
-/* .globe {
-  color: blue;
-} */
-
 .link {
   color: rgb(116, 101, 101);
 }
@@ -81,4 +77,26 @@ h4 {
 
 .trophy {
   color: rgb(2, 135, 55);
+}
+
+/* .home-dispaly {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+} */
+
+.home-dispaly {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.manager-container {
+  width: 100%; 
+  width: 100vw;
+}
+
+tr {
+  text-align: left;
+  font-size: 20px;
 }
