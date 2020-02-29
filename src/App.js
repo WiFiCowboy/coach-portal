@@ -21,7 +21,7 @@ export default class App extends Component {
           <Nav />
           <IconBar />
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route path="/coach-portal" exact component={Home} />
           </Switch>
         </div>
       </Router>
