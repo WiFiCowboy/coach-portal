@@ -28,6 +28,8 @@ export default {
   "hpc": [
     {
       "id": 1,
+      "managerId": 1,
+      "name": "manager",
       "hpc": 2.98,
       "goal": 3.00,
       "variance": .02,
@@ -35,17 +37,25 @@ export default {
       "de": 80,
       "productivity": 82,
     },
-    // {
-    //   "id": 2,
-    //   "hpc": 3.15,
-    //   "de": 90,
-    //   "productivity": 95,
-    // },
-    // {
-    //   "id": 3,
-    //   "hpc": 2.98,
-    //   "de": 76,
-    //   "productivity": 89,
-    // },
+  ],
+  "voc": [
+    {
+      "id": 1,
+      "managerId": 1,
+      "name": "manager",
+      "voc": 100,
+      "aiq": 96,
+    }
+  ],
+  "atnd": [
+    {
+      "id": 1,
+      "managerId": 1,
+      "name": "manager",
+      "atnd": 138,
+      "productivity": 82,
+      "earnedHrs": 410,
+      "totalHrs": 500,
+    }
   ]
 }

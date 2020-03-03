@@ -9,8 +9,9 @@ export default class Hpc extends Component {
   render() {
     return (
       this.state.hpc.map(item => (
-        <table>
+        <table className="manager-container">
           <tr>
+            <th>Mananger</th>
             <th>hpc</th>
             <th>goal</th>
             <th>variance</th>
@@ -18,7 +19,8 @@ export default class Hpc extends Component {
             <th>de</th>
             <th>prod.</th>
           </tr>
-          <tr>
+          <tr key={item.id}>
+            <td>{item.name}</td>
             <td>{item.hpc}</td>
             <td>{item.goal}</td>
             <td>{item.variance}</td>

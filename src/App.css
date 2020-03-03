@@ -104,3 +104,11 @@ h4 {
   border: 1px solid red;
 }
 
+.links {
+  text-decoration: none;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}

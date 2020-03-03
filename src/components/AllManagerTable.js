@@ -12,16 +12,30 @@ export default class AllManagerTable extends Component {
     return (
 
       this.state.managers.map(item => (
-        <tr key={item.id}>
+        <tr key={item.id} >
           <td>
             {item.name}
           </td>
-          <Link to="/hpc">
-            <td>{item.hpc}</td>
-          </Link>
-          <td>{item.voc}%</td>
-          <td>{item.atnd}hrs</td>
-          <td>{item.aiq}%</td>
+          <td>
+            <Link to="/hpc" className="links">
+              {item.hpc}
+            </Link>
+          </td>
+          <td>
+            <Link to="/voc" className="links">
+              {item.voc} %
+            </Link>
+          </td>
+          <td>
+            <Link to="/atnd" className="links">
+              {item.atnd} hrs
+            </Link>
+          </td>
+          <td>
+            <Link className="links">
+              {item.aiq} %
+            </Link>
+          </td>
         </tr>
       ))
 
