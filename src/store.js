@@ -3,7 +3,6 @@ export default {
     {
       "id": 1,
       "name": "Manager A",
-      "cbr": "111-111-1111",
       "hpc": 2.98,
       "voc": 100,
       "atnd": 138,
@@ -12,7 +11,6 @@ export default {
     {
       "id": 2,
       "name": "Manager B",
-      "cbr": "222-222-2222",
       "hpc": 3.15,
       "voc": 92.85,
       "atnd": 300,
@@ -21,37 +19,33 @@ export default {
     {
       "id": 3,
       "name": "Manager C",
-      "cbr": "333-333-3333",
       "hpc": 2.98,
       "voc": 89,
       "atnd": 300,
       "aiq": 82
     },
   ],
-  // "results": [
-  //   {
-  //     "id": 1,
-  //     "managerId": 1,
-  //     "hpc": 2.98,
-  //     "voc": 100,
-  //     "atnd": 138,
-  //     "aiq": 96
-  //   },
-  //   {
-  //     "id": 2,
-  //     "managerId": 2,
-  //     "hpc": 2.98,
-  //     "voc": 100,
-  //     "atnd": 138,
-  //     "aiq": 96
-  //   },
-  //   {
-  //     "id": 3,
-  //     "managerId": 4,
-  //     "hpc": 2.98,
-  //     "voc": 100,
-  //     "atnd": 138,
-  //     "aiq": 96
-  //   },
-  // ]
+  "hpc": [
+    {
+      "id": 1,
+      "hpc": 2.98,
+      "goal": 3.00,
+      "variance": .02,
+      "varPercent": .67,
+      "de": 80,
+      "productivity": 82,
+    },
+    // {
+    //   "id": 2,
+    //   "hpc": 3.15,
+    //   "de": 90,
+    //   "productivity": 95,
+    // },
+    // {
+    //   "id": 3,
+    //   "hpc": 2.98,
+    //   "de": 76,
+    //   "productivity": 89,
+    // },
+  ]
 }

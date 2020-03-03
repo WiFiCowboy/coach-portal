@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .App {
   text-align: center;
 }
@@ -25,7 +32,7 @@ nav {
 }
 
 .icon-bar {
-  padding-top: 20px;
+  padding: 20px 0;
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -94,9 +101,6 @@ h4 {
 .manager-container {
   width: 100%; 
   width: 100vw;
+  border: 1px solid red;
 }
 
-tr {
-  text-align: left;
-  font-size: 20px;
-}
