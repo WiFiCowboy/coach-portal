@@ -11,10 +11,10 @@ export default class Hpc extends Component {
       this.state.hpc.map(item => (
         <table className="manager-container">
           <tr>
-            <th>Mananger</th>
+            <th>Name</th>
             <th>hpc</th>
             <th>goal</th>
-            <th>variance</th>
+            <th>variance hrs</th>
             <th>variance %</th>
             <th>de</th>
             <th>prod.</th>
@@ -23,7 +23,7 @@ export default class Hpc extends Component {
             <td>{item.name}</td>
             <td>{item.hpc}</td>
             <td>{item.goal}</td>
-            <td>{item.variance}</td>
+            <td>{item.variance} hrs</td>
             <td>{item.varPercent} %</td>
             <td>{item.de}</td>
             <td>{item.productivity} %</td>

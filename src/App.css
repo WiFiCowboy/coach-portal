@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #141d26;
+  color: #ffffff;
+}
 
 .App {
   text-align: center;
@@ -50,7 +54,7 @@ h4 {
   color: rgb(71, 79, 79);
 }
 
-.chart {
+.chart, .task, .globe, .docs {
   color: rgb(13, 100, 250);
 }
 
@@ -60,10 +64,6 @@ h4 {
 
 .tri {
   color: red;
-}
-
-.task, .globe, .docs {
-  color: blue;
 }
 
 .users {
@@ -106,9 +106,16 @@ h4 {
 
 .links {
   text-decoration: none;
+  color: rgb(13, 100, 250);
+  font-weight: 500;
 }
 
 td {
   text-align: center;
   vertical-align: middle;
 }
+
+/* td:hover {
+  background-color: white;
+  opacity: 50%;
+} */

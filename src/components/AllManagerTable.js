@@ -14,10 +14,12 @@ export default class AllManagerTable extends Component {
       this.state.managers.map(item => (
         <tr key={item.id} >
           <td>
-            {item.name}
+            <Link to={`/manager/${item.id}`} className="links">
+              {item.name}
+            </Link>
           </td>
           <td>
-            <Link to="/hpc" className="links">
+            <Link to={`/hpc/${item.id}`} className="links">
               {item.hpc}
             </Link>
           </td>

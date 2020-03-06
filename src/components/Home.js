@@ -15,7 +15,7 @@ export default class Home extends Component {
           <table className="manager-container">
             <tbody>
               <tr>
-                <th>Manager</th>
+                <th>Name</th>
                 <th>HPC</th>
                 <th>VOC</th>
                 <th>ATND</th>
